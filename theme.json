@@ -1,0 +1,113 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "primary",
+          "color": "#000000",
+          "name": "Primary"
+        },
+        {
+          "slug": "secondary",
+          "color": "#333333",
+          "name": "Secondary"
+        },
+        {
+          "slug": "tertiary",
+          "color": "#666666",
+          "name": "Tertiary"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell, \"Helvetica Neue\",sans-serif",
+          "slug": "system-font",
+          "name": "System Font"
+        },
+        {
+          "fontFamily": "Helvetica Neue, Helvetica, Arial, sans-serif",
+          "slug": "helvetica-arial",
+          "name": "Helvetica or Arial"
+        }
+      ],
+      "fontSizes": [
+        {
+          "slug": "small",
+          "size": "1rem",
+          "name": "Small"
+        },
+        {
+          "slug": "normal",
+          "size": "1.5rem",
+          "name": "Normal"
+        },
+        {
+          "slug": "large",
+          "size": "2rem",
+          "name": "Large"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontSize": "var(--wp--preset--font-size--normal)"
+    },
+    "color": {
+      "text": "var(--wp--preset--color--primary)"
+    },
+    "elements": {
+      "h1": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--large)"
+        }
+      },
+      "h2": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--normal)"
+        }
+      },
+      "h3": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--normal)"
+        }
+      },
+      "h4": {
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--small)"
+        }
+      },
+      "link": {
+        "color": {
+          "text": "green"
+        },
+        ":hover": {
+          "color": {
+            "text": "hotpink"
+          }
+        }
+      }
+    },
+    "blocks": {
+      "core/paragraph": {
+        "color": {
+          "text": "var(--wp--preset--color--secondary)"
+        },
+        "typography": {
+          "fontSize": "var(--wp--preset--font-size--small)"
+        }
+      },
+      "core/group": {
+        "color": {
+          "text": "var(--wp--preset--color--tertiary)"
+        }
+      }
+    }
+  },
+  "customTemplates": {},
+  "templateParts": {}
+}
