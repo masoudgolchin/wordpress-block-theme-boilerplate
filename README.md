@@ -66,19 +66,30 @@ wordpress-block-theme-boilerplate/
 ├── assets/
 │ ├── css/
 │ ├── js/
-│ └── images/
-├── inc/
+│ └── img/
+├── includes/
 │ └── template-functions.php
+├── blocks/
+│ ├── block-name/
+│ │ ├── block.json
+│ │ ├── edit.js
+│ │ ├── editor.scss
+│ │ ├── index.js
+│ │ ├── render.php
+│ │ ├── style.scss
+│ │ └── view.js
+├── build/
 ├── parts/
-│ └── header.php
-│ └── footer.php
+├── patterns/
 ├── templates/
 │ └── index.html
 │ └── single.html
+├── styles/
 ├── style.css
 ├── functions.php
 ├── index.php
 ├── package.json
+└── theme.json
 └── README.md
 ```
 
