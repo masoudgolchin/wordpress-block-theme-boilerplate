@@ -14,3 +14,7 @@ function fabin_register_blocks()
     }
 }
 add_action('init', 'fabin_register_blocks');
+/**
+ * Include the template functions
+ */
+require get_template_directory() . '/includes/template-functions.php';
