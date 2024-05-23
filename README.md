@@ -16,16 +16,16 @@ Welcome to the WordPress Block-Based Theme Boilerplate! This project serves as a
 
 ## Installation
 
-1. **Clone the repository**:
+1. **Go to your WordPress theme directory. And Clone the repository to your theme directory**:
 
    ```sh
-   git clone https://github.com/yourusername/wordpress-block-theme-boilerplate.git
+   git clone https://github.com/masoudgolchin/wp-starter-theme.git
    ```
 
 2. **Navigate to the theme directory**:
 
    ```sh
-   cd wordpress-block-theme-boilerplate
+   cd wp-starter-theme
    ```
 
 3. **Install dependencies**:
