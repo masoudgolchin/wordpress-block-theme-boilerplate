@@ -19,13 +19,13 @@ Welcome to the WordPress Block-Based Theme Boilerplate! This project serves as a
 1. **Go to your WordPress theme directory. And Clone the repository to your theme directory**:
 
    ```sh
-   git clone https://github.com/masoudgolchin/wp-starter-theme.git
+   git clone https://github.com/masoudgolchin/wordpress-block-theme-boilerplate.git
    ```
 
 2. **Navigate to the theme directory**:
 
    ```sh
-   cd wp-starter-theme
+   cd wordpress-block-theme-boilerplate
    ```
 
 3. **Install dependencies**:
@@ -60,3 +60,35 @@ Welcome to the WordPress Block-Based Theme Boilerplate! This project serves as a
   ```
 
 ## File Structure
+
+wordpress-block-theme-boilerplate/
+├── assets/
+│ ├── css/
+│ ├── js/
+│ └── images/
+├── inc/
+│ └── template-functions.php
+├── parts/
+│ └── header.php
+│ └── footer.php
+├── templates/
+│ └── index.html
+│ └── single.html
+├── style.css
+├── functions.php
+├── index.php
+├── package.json
+└── README.md
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
+
+## License
+
+This theme, like WordPress, is licensed under the GPL.
+
+## Resources
+
+- [WordPress Block Editor Handbook](https://developer.wordpress.org/block-editor/)
+- [WordPress Theme Handbook](https://developer.wordpress.org/themes/)
