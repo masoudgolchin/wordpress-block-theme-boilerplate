@@ -61,6 +61,7 @@ Welcome to the WordPress Block-Based Theme Boilerplate! This project serves as a
 
 ## File Structure
 
+```sh
 wordpress-block-theme-boilerplate/
 ├── assets/
 │ ├── css/
@@ -79,6 +80,7 @@ wordpress-block-theme-boilerplate/
 ├── index.php
 ├── package.json
 └── README.md
+```
 
 ## Contributing
 
